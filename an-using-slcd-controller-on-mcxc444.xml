@@ -1,0 +1,51 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-using-slcd-controller-on-mcxc444" type="app_note" format="projectfile" versionSchema="1.0.0" name="using-slcd-controller-on-mcxc444">
+    <display_title>
+        Using SLCD controller on MCXC444 MCU
+    </display_title>
+    <overview>
+        <![CDATA[
+
+SLCD is one of the oldest
+display technologies. It is still
+one of the most popular technologies, due to the lowest price
+and power consumption.
+
+<br />     <br />
+
+
+Segment
+LCD displays, also called static
+displays or glass-only displays, consist of two pieces
+of Indium Tin Oxide (ITO) glass
+with a twisted nematic
+fluid sandwiched in between. A static display
+is a segment display with
+one pin for
+each segment. A segment is any line,
+dot, or symbol that can be turned
+on and off independently.
+
+NXP MCXC444 MCU integrates an SLCD controller module with up to eight
+backplanes and 47 frontplanes, such as, 8 × 47 or 4
+
+× 51. This document describes
+the usage of on-chip SLCD controller by enabling an SLCD device,
+S401M16KR, which is a four- digit
+0.17" seven segment custom LCD panel.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXC444"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="display"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="hmi"></category>
+    </categories>
+</data:item>

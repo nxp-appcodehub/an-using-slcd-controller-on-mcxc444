@@ -1,0 +1,40 @@
+NXP Software Content Register
+
+Package:                   an-using-slcd-controller-on-mcxc444
+
+Version:                   1.0
+Outgoing License:          BSD-3-Clause
+License File:              LICENSE.txt
+Description and comments:  This application note provides a comprehensive guide on using the Segment Liquid Crystal Display (SLCD) technology,.
+Release Location:          https://github.com/nxp-appcodehub/an-using-slcd-controller-on-mcxc444
+Origin:                    NXP (BSD-3-Clause)
+                           CMSIS - ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/
+						   
+
+CMSIS                      Name: CMSIS                                       
+                           Version: 5.8.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: 
+						    frdmmcxc444_slcd_basic/CMSIS/LICENSE.txt
+						    frdmmcxc444_low_power/CMSIS/LICENSE.txt                     
+                           Format: source code                               
+                           Description and comments: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores 
+                           Location: 
+						   https://github.com/nxp-appcodehub/an-using-slcd-controller-on-mcxc444/tree/main/frdmmcxc444_slcd_basic/CMSIS/  
+						   https://github.com/nxp-appcodehub/an-using-slcd-controller-on-mcxc444/tree/main/frdmmcxc444_low_power/CMSIS/  
+                           Origin: ARM (Apache License 2.0)              
+
+SDK_Components             Name: SDK components and board peripheral drivers 
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: LICENSE.txt                      
+                           Format: source code                               
+                           Description: SDK components and board peripheral  
+                           drivers, for example, flash and codec drivers.    
+                           Location: 
+						    frdmmcxc444_low_power/components/
+						    frdmmcxc444_slcd_basic/components/  
+                           Origin: NXP (BSD-3-Clause)
